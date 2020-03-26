@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+</head>
+
+<!--HTML CODE-->
+
+<body>
+    <nav class="navbar" style="height: 70px;">Weather Dashboard</nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3" id="searchPanel">
+                <form>
+                    <label>Search for a city</label>
+                    <input id="searchInp" type="text"></input>
+                    <button id="searchBtn" type="button">Search</button>
+                    <div class="savedSearches"></div>
+                </form>
+            </div>
+            <div class="col-9" id="currentWeather">
+                <div class="cityName">City name</div>
+                <img class="current-icon">
+                <div class="date">Today's date: </div>
+                <div class="temp">Temperature: </div>
+                <div class="humidity">Humidity: </div>
+                <div class="windSpeed">Wind speed: </div>
+                <div class="UVindex">UV index:</div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid hide">
+        <div class="row" id="forecast5">
+            <!-- <div class="col-3" id="searchPanel"></div> -->
+            <div class="col-2 forecast card">
+                <div id="day1-date" class="date"></div>
+                <div id="day1-temp"></div>
+                <div id="day1-hum"></div>
+                <div id="day1-description" class="description"></div>
+                <img id="day1-icon" class="icon">
+            </div>
+            <div class="col-2 forecast card">
+                <div id="day2-date" class="date"></div>
+                <div id="day2-temp"></div>
+                <div id="day2-hum"></div>
+                <div id="day2-description" class="description"></div>
+                <img id="day2-icon" class="icon">
+            </div>
+            <div class="col-2 forecast card">
+                <div id="day3-date" class="date"></div>
+                <div id="day3-temp"></div>
+                <div id="day3-hum"></div>
+                <div id="day3-description" class="description"></div>
+                <img id="day3-icon" class="icon">
+            </div>
+            <div class="col-2 forecast card">
+                <div id="day4-date" class="date"></div>
+                <div id="day4-temp"></div>
+                <div id="day4-hum"></div>
+                <div id="day4-description" class="description"></div>
+                <img id="day4-icon" class="icon">
+            </div>
+            <div class="col-2 forecast card">
+                <div id="day5-date" class="date"></div>
+                <div id="day5-temp"></div>
+                <div id="day5-hum"></div>
+                <div id="day5-description" class="description"></div>
+                <img id="day5-icon" class="icon">
+            </div>
+        </div>
+
+        <!--JAVASCRIPT/JQUERY CODE-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+nav {
+    background-color: darkblue;
+    color: white;
+    font-size: 30px;
+}
+#searchPanel {
+    background-color: rgb(226, 224, 224);
+    padding: 30px;
+    height: 50vh;
+}
+#searchBtn {
+    background-color: lightskyblue;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#savedSearches {
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+}
+
+#searchBtn:hover {
+  cursor: pointer;
+}
+
+#currentWeather {
+    background-color: rgb(215, 237, 245);
+    height: 50vh;
+    font-size: 25px;
+}
+.cityName {
+    font-size: 40px;
+}
+
+.card {
+    display:inline-block;
+    padding-top: 20px;
+    height: 200px;
+    width: 125px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: lightskyblue !important;
+    font-size: 20px;    
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.description {
+    font-weight: bold;
+}
+.date {
+    font-weight: bold;
+    font-size: 22px;
+}
+.UVlow {
+    background-color: green;
+    width: 200px;
+}
+.UVmed {
+    background-color: orange;
+    width: 200px;
+}
+.UVhigh {
+    background-color: red;
+    width: 200px;
+}
