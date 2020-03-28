@@ -11,10 +11,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 </head>
 
-<!--HTML CODE-->
-
 <body>
+    <!--NAVIGATION BAR-->
     <nav class="navbar" style="height: 70px;">Weather Dashboard</nav>
+    <!--SIDE SEARCH PANEL-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-3" id="searchPanel">
@@ -25,6 +25,7 @@
                     <div class="savedSearches"></div>
                 </form>
             </div>
+            <!--MAIN CONTENT OF WEBSITE DISPAYING CURRENT WEATHER INFORMATION-->
             <div class="col-9" id="currentWeather">
                 <div class="cityName">City name</div>
                 <img class="current-icon">
@@ -36,9 +37,9 @@
             </div>
         </div>
     </div>
+    <!--MAIN CONTENT OF WEBSITE DISPLAYING FIVE-DAY FORECAST (LOWER SECTION OF WEBPAGE)-->
     <div class="container-fluid hide">
         <div class="row" id="forecast5">
-            <!-- <div class="col-3" id="searchPanel"></div> -->
             <div class="col-2 forecast card">
                 <div id="day1-date" class="date"></div>
                 <div id="day1-temp"></div>
@@ -75,10 +76,10 @@
                 <img id="day5-icon" class="icon">
             </div>
         </div>
-
-        <!--JAVASCRIPT/JQUERY CODE-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="./script.js"></script>
+    </div>
+    <!--JAVASCRIPT/JQUERY CODE-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
