@@ -1,4 +1,4 @@
-# Dynamtic weather app
+# Dynamic weather app
 Interactive weather app featuring dynamic content, displaying the current and forecasted weather conditions including temperature, humidity, and wind speed. The current weather also displays the UV index.
 
 The user's search history is saved via local storage to the sidebar, whereby the user can click on the previously searched city and load the weather information without having to type in again the name of their city. Upon page reload, the last searched-for city will be displayed, again via the use of local storage. 
